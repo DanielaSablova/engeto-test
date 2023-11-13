@@ -97,4 +97,7 @@ WHERE p.name = 'Libor' OR p.name = 'Petr'
 GROUP BY p.name, p.surname 
 HAVING COUNT(p2.id) >= 1;
 
-DESCRIBE medicament;
+DESCRIBE patient;
+
+SELECT *
+FROM patient p ;
